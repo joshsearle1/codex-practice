@@ -33,3 +33,17 @@ python todo.py complete 1
 Tasks are saved in `tasks.json`, which is created automatically the first time
 you add a task. That file is ignored by Git so your personal todo list stays
 local.
+
+## Tests
+
+Run the unit tests:
+
+```powershell
+py -m unittest discover -s tests
+```
+
+If your terminal uses `python` instead of `py`, run:
+
+```powershell
+python -m unittest discover -s tests
+```
