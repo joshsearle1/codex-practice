@@ -47,3 +47,8 @@ If your terminal uses `python` instead of `py`, run:
 ```powershell
 python -m unittest discover -s tests
 ```
+
+## Agent guidance
+
+See `AGENTS.md` for repo layout, commands, conventions, and definition of done
+for future Codex work.
